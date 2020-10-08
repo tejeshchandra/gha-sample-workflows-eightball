@@ -1,0 +1,7 @@
+- name: Fortify on Demand Scan
+  # You may pin to the exact commit or the version.
+  # uses: fortify/gha-setup-fod-uploader@ef9d02c9435c9924e829286f3023dfb446e2e585
+  uses: fortify/gha-setup-fod-uploader@1.0.0
+  with:
+    # FoDUploader version to use
+    version: # default is latest
